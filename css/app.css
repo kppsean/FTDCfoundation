@@ -1,0 +1,265 @@
+/********************************************/
+/* GENERAL */
+/********************************************/
+
+h1, h2, h3, h4, h5, h6 {
+	color: #1d438f;
+	width: 90%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 1.5em;
+	border: solid #f47a26;
+	border-width: 0 0 1px 0;
+	padding: .2em 0;
+}
+
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-bottom: -.8em;
+}
+
+p {
+	width: 90%;
+	margin: 1em auto;
+	color: #333;
+	font-size: .9em;
+}
+
+hr {
+	background-color: #f47a26;
+	color: #f47a26;
+	height: .1em;
+}
+
+/********************************************/
+/* SOME WEIRD CLASSES */
+/********************************************/
+.highlight {
+	font-size: 1em;
+	margin-bottom: 1.5em;
+	color: #1d438f;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+.orangeBorderBottom {
+	border: solid;
+    border-width: 0 0 1em 0;
+    border-color: #f47a26;
+    margin-bottom: 1em;
+}
+
+.orangeBorderTop {
+	border: solid;
+    border-width: 1em 0 0 0;
+    border-color: #f47a26;
+    margin-bottom: 1em;
+}
+
+/********************************************/
+/* BUTTONS */
+/********************************************/
+.button, button {
+	border-radius: 5px;
+	background: #fff;
+	background: rgba(0, 0, 0, 0.2);
+	border: solid #eee 1px;
+}
+
+.button a {
+	color: #eee;
+}
+
+.button a:hover {
+	background-color: #eee;
+}
+
+.headerButtons {
+	margin: 2.5em 0 0 0;
+	text-align: right;
+}
+
+/********************************************/
+/* MENU, NAV */
+/********************************************/
+nav, .siteName {
+    background-color: #1d438f;
+    background-color: rgba(29,67,143,0.75);
+
+}
+
+nav a {
+    color: #ddd;
+}
+
+nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/********************************************/
+/* MAIN DIVS IN ORDER IN WHICH THEY COME */
+/********************************************/
+header {
+	background-image: url('../img/aboutHero2.jpg');
+    background-repeat: none;
+    background-size: cover;
+    min-height: 20em;
+}
+
+.siteName {
+	padding: 1em;
+}
+
+.siteName h1 {
+	color: #eee;
+	font-style: oblique;
+	font-size: 4em;
+	font-weight: bold;
+	margin-bottom: 0;
+	border: none;
+}
+
+.siteName h6 {
+	color: #eee;
+	font-style: oblique;
+	font-size: .6em;
+	margin-top: -3em;
+}
+
+.siteName h1, .siteName h6 {
+	text-align: center;
+}
+
+.siteName a {
+	color: #eee;
+}
+
+.hashtag {
+	background-color: #1d438f;
+    background-color: rgba(29,67,143,0.75);
+    float: right;
+    margin-top: 100px;
+    padding: .1em .7em;
+    width: 30%;
+    border-radius: 5px 0 0 5px;
+}
+
+.hashtag:hover {
+	background-color: #1d438f;
+    background-color: rgba(29,67,143,0.90);
+}
+
+.hastag a {
+	font-size: 2em;
+	color: #eee;
+}
+
+.hastag a:hover {
+
+}
+
+
+/********************************************/
+/* FOOTER */
+/********************************************/
+
+footer {
+	background-image: url('../img/aboutHero.jpg');
+    background-repeat: none;
+    background-size: cover;
+    min-height: 12em;
+    position: relative;
+}
+
+.footerContent {
+	background-color: #1d438f;
+    background-color: rgba(29,67,143,0.75);
+    background-size: cover;
+    color: #eee;
+    padding: 1em 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: .8em;
+    text-align: center;
+}
+
+.footerContent li {
+	list-style: none;
+}
+
+.footerContent a {
+	color: #eee;
+}
+
+.footerContent a:hover {
+	text-decoration: underline;
+}
+
+/********************************************/
+/* MEDIA QUERIES */
+/********************************************/
+
+/********************************************/
+/* MEDIUM SCREENS */
+/********************************************/
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+    header {
+	    min-height: 30em;
+	}
+
+	.siteName h1, .siteName h6 {
+		text-align: left;
+	}
+
+	.orangeBorder {
+	    border-width: 0 0 1.5em 0;
+	    margin-bottom: 1.5em;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h3 {
+		font-size: 1.3em;
+		font-weight: bold;
+		margin-bottom: -.8em;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+	.highlight {
+		font-size: 1.2em;
+	}
+
+	footer {
+	    min-height: 20em;
+	}
+
+}
+
+/********************************************/
+/* LARGE SCREENS */
+/********************************************/
+@media screen and (min-width: 64em) {}
+	header {
+		min-height: 30em;
+	}
+}
