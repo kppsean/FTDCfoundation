@@ -9,7 +9,28 @@
     <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
-    <header class="orangeBorderBottom">
+
+    <div class="show-for-small-only">
+      <div class="title-bar orangeBorder orangeBorderBottom" data-responsive-toggle="example-menu" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle></button>
+        <div class="title-bar-title"></div>
+      </div>
+
+      <div class="top-bar" id="example-menu">
+        <div class="top-bar-left">
+          <ul class="dropdown menu vertical" data-dropdown-menu>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <header class="orangeBorder orangeBorderTop">
       <div class="siteName">
         <div class="row">
             <div class="small-12 medium-6 columns">
@@ -23,22 +44,22 @@
               <button type="button" class="button"><a href="direction.html">DIRECTIONS</a></button>
               <button type="button" class="button"><a href="apply.html">APPLY</a></button>
             </div>
-        </div>
-      </div>
-
-      <nav>
-        <div class="row hide-for-small-only">
-          <div class="small-12 columns">
-            <ul class="menu align-right">
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="about.html" class="active">About</a></li>
-            </ul>
           </div>
         </div>
-      </nav>
+
+        <nav>
+          <div class="row hide-for-small-only">
+            <div class="small-12 columns">
+              <ul class="menu align-right">
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 
         <div class="hashtag hide-for-small-only">
           <span class="hastag"><a href="#">@JWU_FTDC</a>  </span>
@@ -79,7 +100,7 @@
 
     </div>
 
-    <footer class="orangeBorderTop">
+    <footer class="orangeBorder orangeBorderTop">
       <div class="footerContent">
       <div class="row">
         <div class="small-12 medium-4 columns show-for-medium">

@@ -1,5 +1,5 @@
 /********************************************/
-/* GENERAL */
+/* GENERAL STYLES */
 /********************************************/
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,7 +14,6 @@ h1 {
 	border-width: 0 0 1px 0;
 	padding: .2em 0;
 }
-
 
 h2 {
 	font-size: 2em;
@@ -40,7 +39,7 @@ hr {
 }
 
 /********************************************/
-/* SOME WEIRD CLASSES */
+/* CUSTOM CLASSES */
 /********************************************/
 .highlight {
 	font-size: 1em;
@@ -52,18 +51,17 @@ hr {
 	text-decoration: underline;
 }
 
-.orangeBorderBottom {
+.orangeBorder {
 	border: solid;
-    border-width: 0 0 1em 0;
-    border-color: #f47a26;
-    margin-bottom: 1em;
+	border-color: #f47a26;
+}
+
+.orangeBorderBottom {
+    border-width: 0 0 .1em 0;
 }
 
 .orangeBorderTop {
-	border: solid;
-    border-width: 1em 0 0 0;
-    border-color: #f47a26;
-    margin-bottom: 1em;
+    border-width: .1em 0 0 0;
 }
 
 /********************************************/
@@ -108,7 +106,31 @@ nav a:hover {
 }
 
 /********************************************/
-/* MAIN DIVS IN ORDER IN WHICH THEY COME */
+/* OFF-CANVAS NAVIGATION FOR MOBILE VIEW    */
+/********************************************/
+.title-bar {
+    background: #0c2860;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #0c2860;
+}
+
+.top-bar ul li:hover, .top-bar ul li:hover {
+    background-color: #eee;
+}
+
+.top-bar a {
+    color: #eee;
+}
+
+.top-bar a:hover {
+	color: #0c2860;
+    text-decoration: underline;
+}
+
+/********************************************/
+/* MAIN DIVS IN ORDER IN WHICH THEY COME    */
 /********************************************/
 header {
 	background-image: url('../img/aboutHero2.jpg');
@@ -169,7 +191,6 @@ header {
 
 }
 
-
 /********************************************/
 /* FOOTER */
 /********************************************/
@@ -213,7 +234,7 @@ footer {
 /********************************************/
 
 /********************************************/
-/* MEDIUM SCREENS */
+/* MEDIUM SCREEN STYLES */
 /********************************************/
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
@@ -226,10 +247,7 @@ footer {
 		text-align: left;
 	}
 
-	.orangeBorder {
-	    border-width: 0 0 1.5em 0;
-	    margin-bottom: 1.5em;
-	}
+	
 
 	h1 {
 		font-size: 2.5em;
@@ -256,10 +274,8 @@ footer {
 }
 
 /********************************************/
-/* LARGE SCREENS */
+/* LARGE SCREEN STYLES */
 /********************************************/
 @media screen and (min-width: 64em) {}
-	header {
-		min-height: 30em;
-	}
+	
 }
