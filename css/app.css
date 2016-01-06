@@ -1,4 +1,22 @@
 /********************************************/
+
+/* Hey there. This stylesheet is broken up 
+into the following sections.
+
+SECTION 1: GENERAL STYLES
+SECTION 2: CUSTOM CLASSES
+SECTION 3: BUTTONS
+SECTION 4: MENU AND NAV
+SECTION 5: OFF CANVAS NAV
+SECTION 6: MAIN DIVS AS THEY APPEAR IN THE HTML
+SECTION 7: FOOTER
+SECTIONS 8, 9, 10, 11: THESE SECTIONS ARE RESERVED FOR THE INDIVIDUAL PAGES. HOPEFULLY, YOU WON'T NEED TO USE THIS AREA MUCH OTHER TO WRITE SOME CUSTOM ITEMS WHEN NEEDED. IT IS IMPORTANT THAT THESE SELECTORS GET REDISTRIBUTED INTO THE REST OF THIS CSS DOCUMENT WHEN POSSIBLE
+SECTION 12: MEDIA QUERIES - THIS SITE WAS BUILT MOBILE FIRST. SO THE MEDIA QUERIES PERTAIN TO MEDIUM AND LARGE SCREENS. */
+
+/********************************************/
+
+
+/********************************************/
 /* GENERAL STYLES */
 /********************************************/
 
@@ -228,6 +246,28 @@ footer {
 .footerContent a:hover {
 	text-decoration: underline;
 }
+
+
+
+
+/********************************************/
+/* SERVICES */
+/********************************************/
+ 
+/********************************************/
+/* PORTFOLIO */
+/********************************************/
+
+/********************************************/
+/* TESTIMONIALS */
+/********************************************/
+
+/********************************************/
+/* CONTACT */
+/********************************************/
+
+
+
 
 /********************************************/
 /* MEDIA QUERIES */
