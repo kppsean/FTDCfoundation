@@ -317,5 +317,7 @@ footer {
 /* LARGE SCREEN STYLES */
 /********************************************/
 @media screen and (min-width: 64em) {}
-	
+	h1 {
+		font-size: 3em;
+	}
 }
