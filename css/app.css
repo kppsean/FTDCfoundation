@@ -82,6 +82,7 @@ hr {
     border-width: .1em 0 0 0;
 }
 
+
 /********************************************/
 /* BUTTONS */
 /********************************************/
@@ -261,6 +262,19 @@ footer {
 /********************************************/
 /* TESTIMONIALS */
 /********************************************/
+
+.subtitle {
+	font-size: 0.75em;
+	margin-bottom: -1em;
+	font-style: italic;
+}
+
+.bluebar {
+	border: solid;
+	border-color: #1d438f;
+	border-width: 0 0 1em 0;
+	margin-bottom: 1em;
+}
 
 /********************************************/
 /* CONTACT */
