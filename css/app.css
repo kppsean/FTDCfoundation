@@ -98,7 +98,7 @@ hr {
 }
 
 .button a:hover {
-	background-color: #eee;
+	background: rgba(0, 0, 0, 0.1)
 }
 
 .headerButtons {
@@ -280,7 +280,18 @@ footer {
 /* CONTACT */
 /********************************************/
 
+.center {
+	text-align: center;
+}
 
+.float {
+	float: left;
+}
+
+.profile {
+	border-radius: 50%;
+	width: 40%;
+}
 
 
 /********************************************/
