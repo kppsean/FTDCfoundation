@@ -152,7 +152,7 @@ nav a:hover {
 /* MAIN DIVS IN ORDER IN WHICH THEY COME    */
 /********************************************/
 header {
-	background-image: url('../img/aboutHero2.jpg');
+	background-image: url('../img/header_photo.jpg');
     background-repeat: none;
     background-size: cover;
     min-height: 20em;
@@ -186,29 +186,7 @@ header {
 	color: #eee;
 }
 
-.hashtag {
-	background-color: #1d438f;
-    background-color: rgba(29,67,143,0.75);
-    float: right;
-    margin-top: 100px;
-    padding: .1em .7em;
-    width: 30%;
-    border-radius: 5px 0 0 5px;
-}
 
-.hashtag:hover {
-	background-color: #1d438f;
-    background-color: rgba(29,67,143,0.90);
-}
-
-.hastag a {
-	font-size: 2em;
-	color: #eee;
-}
-
-.hastag a:hover {
-
-}
 
 /********************************************/
 /* FOOTER */
