@@ -31,16 +31,19 @@ h1 {
 	border: solid #f47a26;
 	border-width: 0 0 1px 0;
 	padding: .2em 0;
+	font-family: 'Gill Sans MT';
 }
 
 h2 {
 	font-size: 2em;
+	font-family: 'Gill Sans MT';
 }
 
 h3 {
 	font-size: 1.1em;
 	font-weight: bold;
 	margin-bottom: -.8em;
+	font-family: 'Gill Sans MT';
 }
 
 p {
@@ -48,6 +51,7 @@ p {
 	margin: 1em auto;
 	color: #333;
 	font-size: .9em;
+	font-family: 'Gill Sans MT';
 }
 
 hr {
@@ -111,7 +115,7 @@ hr {
 /********************************************/
 nav, .siteName {
     background-color: #1d438f;
-    background-color: rgba(29,67,143,0.75);
+    background-color: rgba(29,67,143,1);
 
 }
 
@@ -152,7 +156,6 @@ nav a:hover {
 /* MAIN DIVS IN ORDER IN WHICH THEY COME    */
 /********************************************/
 header {
-	background-image: url('../img/header_photo.jpg');
     background-repeat: none;
     background-size: cover;
     min-height: 20em;
@@ -169,6 +172,7 @@ header {
 	font-weight: bold;
 	margin-bottom: 0;
 	border: none;
+	font-family: sans-serif;
 }
 
 .siteName h6 {
@@ -176,6 +180,7 @@ header {
 	font-style: oblique;
 	font-size: .6em;
 	margin-top: -3em;
+	font-family: sans-serif;
 }
 
 .siteName h1, .siteName h6 {
