@@ -197,7 +197,7 @@ header {
 /********************************************/
 
 footer {
-	background-image: url('../img/aboutHero.jpg');
+	background-image: url('../img/ftdc_banner.jpg');
     background-repeat: none;
     background-size: cover;
     min-height: 12em;
@@ -341,7 +341,10 @@ footer {
 }
 
 .form {
-	display: block;
+	margin: auto;
+    width: 60%;
+    border: 1px solid #f47a26;
+    
 }
 
 /********************************************/
