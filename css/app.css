@@ -230,8 +230,23 @@ footer {
 	text-decoration: underline;
 }
 
+/********************************************/
+/* INDEX */
+/********************************************/
 
+.enter {
+	position: fixed;
+	margin: 0 auto;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+}
 
+.enter button {
+	padding: 15px;
+	width: 200%;
+	line-height: 2;
+}
 
 /********************************************/
 /* SERVICES */
