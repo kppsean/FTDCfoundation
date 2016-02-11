@@ -274,8 +274,31 @@ div#slider figure {
   text-align: left;
   font-size: 0;
   animation: 30s slidy infinite; 
+<<<<<<< HEAD
 }
 
+=======
+=======
+.enter {
+	text-align: center;
+>>>>>>> origin/gh-pages
+}
+
+.enter button {
+	padding: 15px;
+	line-height: 2;
+	display:block; /* change this from inline-block */
+    width:20%; /* setting the width */
+    margin:0 auto; /* this will center  it */
+    position:relative;
+    color:#fff;
+    text-align:center;
+    cursor:pointer;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+}
+>>>>>>> parent of ca6d6a8... Revert "Merge remote-tracking branch 'origin/gh-pages' into gh-pages"
 
 /********************************************/
 /* SERVICES */
@@ -341,7 +364,7 @@ div#slider figure {
 	
 
 	h1 {
-		font-size: 2.5em;
+		font-size: 1.2em;
 	}
 
 	h3 {
