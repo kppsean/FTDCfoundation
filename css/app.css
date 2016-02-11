@@ -275,6 +275,7 @@ div#slider figure {
   font-size: 0;
   animation: 30s slidy infinite; 
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 =======
@@ -282,6 +283,8 @@ div#slider figure {
 .enter {
 	text-align: center;
 >>>>>>> origin/gh-pages
+=======
+>>>>>>> parent of 31ab2e0... Revert "Added CSS for gallery on about home page"
 }
 
 .enter button {
