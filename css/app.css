@@ -197,7 +197,7 @@ header {
 /********************************************/
 
 footer {
-	background-image: url('../img/aboutHero.jpg');
+	background-image: url('../img/ftdc_banner.jpg');
     background-repeat: none;
     background-size: cover;
     min-height: 12em;
@@ -230,7 +230,11 @@ footer {
 	text-decoration: underline;
 }
 
+/********************************************/
+/* INDEX */
+/********************************************/
 
+<<<<<<< HEAD
 /* SLIDER */ 
 
 @keyframes slidy {
@@ -256,8 +260,21 @@ div#slider figure {
   text-align: left;
   font-size: 0;
   animation: 30s slidy infinite; 
+=======
+.enter {
+	position: fixed;
+	margin: 0 auto;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+>>>>>>> origin/gh-pages
 }
 
+.enter button {
+	padding: 15px;
+	width: 200%;
+	line-height: 2;
+}
 
 /********************************************/
 /* SERVICES */
@@ -364,6 +381,13 @@ div#slider figure {
 .profile {
 	border-radius: 50%;
 	width: 40%;
+}
+
+.form {
+	margin: auto;
+    width: 60%;
+    border: 1px solid #f47a26;
+    
 }
 
 /********************************************/
