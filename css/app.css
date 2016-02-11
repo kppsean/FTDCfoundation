@@ -31,16 +31,19 @@ h1 {
 	border: solid #f47a26;
 	border-width: 0 0 1px 0;
 	padding: .2em 0;
+	font-family: 'Gill Sans MT';
 }
 
 h2 {
 	font-size: 2em;
+	font-family: 'Gill Sans MT';
 }
 
 h3 {
 	font-size: 1.1em;
 	font-weight: bold;
 	margin-bottom: -.8em;
+	font-family: 'Gill Sans MT';
 }
 
 p {
@@ -48,6 +51,7 @@ p {
 	margin: 1em auto;
 	color: #333;
 	font-size: .9em;
+	font-family: 'Gill Sans MT';
 }
 
 hr {
@@ -111,8 +115,7 @@ hr {
 /********************************************/
 nav, .siteName {
     background-color: #1d438f;
-    background-color: rgba(29,67,143,0.75);
-
+    background-color: rgba(29,67,143,1);
 }
 
 nav a {
@@ -152,7 +155,6 @@ nav a:hover {
 /* MAIN DIVS IN ORDER IN WHICH THEY COME    */
 /********************************************/
 header {
-	background-image: url('../img/aboutHero2.jpg');
     background-repeat: none;
     background-size: cover;
     min-height: 20em;
@@ -169,6 +171,7 @@ header {
 	font-weight: bold;
 	margin-bottom: 0;
 	border: none;
+	font-family: sans-serif;
 }
 
 .siteName h6 {
@@ -176,6 +179,7 @@ header {
 	font-style: oblique;
 	font-size: .6em;
 	margin-top: -3em;
+	font-family: sans-serif;
 }
 
 .siteName h1, .siteName h6 {
@@ -186,29 +190,7 @@ header {
 	color: #eee;
 }
 
-.hashtag {
-	background-color: #1d438f;
-    background-color: rgba(29,67,143,0.75);
-    float: right;
-    margin-top: 100px;
-    padding: .1em .7em;
-    width: 30%;
-    border-radius: 5px 0 0 5px;
-}
 
-.hashtag:hover {
-	background-color: #1d438f;
-    background-color: rgba(29,67,143,0.90);
-}
-
-.hastag a {
-	font-size: 2em;
-	color: #eee;
-}
-
-.hastag a:hover {
-
-}
 
 /********************************************/
 /* FOOTER */
@@ -280,10 +262,16 @@ div#slider figure {
 /********************************************/
 /* SERVICES */
 /********************************************/
+
  
 /********************************************/
 /* PORTFOLIO */
 /********************************************/
+
+.row .column {
+	padding: 5px;
+}
+
 
 /********************************************/
 /* TESTIMONIALS */
@@ -302,6 +290,65 @@ div#slider figure {
 	margin-bottom: 1em;
 }
 
+/* ALL FOR THE QUOTE BELOW */
+
+.centered-text {
+  text-align: center;
+}
+
+.quote-marks {
+  font-size: 100px;
+  font-family: Garamond;
+  color: #1d438f;
+}
+
+.move-right {
+  position: relative;
+  text-align: right;
+}
+
+.quote {
+  border-radius: 5px;
+}
+
+.quote p {
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 40em) {
+  .quote p {
+    padding-left: 20px;
+  }
+}
+
+.student {
+  margin-left: 25px;
+  margin-bottom: 80px;
+}
+.student .photo {
+  background-color: #ccc;
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 15px;
+}
+.student p {
+  position: relative;
+  top: 5px;
+  color: #1d438f;
+}
+.student p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.student p:nth-child(3) {
+  font-size: 14px;
+  font-weight: 400;
+  color: #f47a26;
+}
+
 /********************************************/
 /* CONTACT */
 /********************************************/
@@ -317,6 +364,32 @@ div#slider figure {
 .profile {
 	border-radius: 50%;
 	width: 40%;
+}
+
+/********************************************/
+/* CONTACT */
+/********************************************/
+
+.center {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+/********************************************/
+/* DIRECTIONS */
+/********************************************/
+
+/* Overlay div for Google Map so you have to click on it first */
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:400px; /* your iframe height */
+   top:400px;  /* your iframe height */
+   margin-top:-400px;  /* your iframe height */
 }
 
 
